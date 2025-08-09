@@ -1,11 +1,81 @@
+.header-container {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-info {
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-info a {
+    text-decoration: underline;
+    color: black;
+}
+
 .profile-image {
-    border-radius: 50%;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.profile-name {
+    font-size: 2em;
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.profile-title {
+    font-size: 1.2em;
+    margin: 5px 0;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.profile-skills {
+    font-size: 1em;
+    margin: 5px 0;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .section-title {
     font-size: 1.5em;
     margin-bottom: 0.5em;
-    padding: 0 5px;
+    padding: 3px 8px;
     background-color: black;
     color: white;
+    border-radius: 5px;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.footer-links {
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-svg {
+    width: 30px;
 }
